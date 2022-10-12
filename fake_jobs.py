@@ -51,7 +51,7 @@ def main():
     }
 
     df = pandas.DataFrame(data)
-    df.to_csv('files/fake_jobs.csv',index=False)
+    df.to_csv('resources/export/fake_jobs.csv',index=False)
 
 if __name__ == '__main__':
     main()
